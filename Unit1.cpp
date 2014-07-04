@@ -45,9 +45,7 @@ void __fastcall TForm1::Button1Click(TObject *Sender)
 
 
 void __fastcall TForm1::Button2Click(TObject *Sender)
-{
-    int a;
-	_di_OnlineTimeTableSoap myTes = GetOnlineTimeTableSoap();
+{ _di_OnlineTimeTableSoap myTes = GetOnlineTimeTableSoap();
 		AirportsResponse f;
 if( Form1->ComboBox1->ItemIndex==0)
   {
