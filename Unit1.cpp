@@ -38,7 +38,6 @@ void __fastcall TForm1::Button1Click(TObject *Sender)
 		i++;
 		}
 	}
-int abc=5;
 
 }
 //---------------------------------------------------------------------------
